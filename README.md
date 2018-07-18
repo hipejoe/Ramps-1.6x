@@ -1,23 +1,18 @@
-Ramps-1.4.2
+Ramps-1.6 or so
 ===========
 
 forked from ultimachine/Ramps 1.4
 
+terminated AUX doe to space
 
-The RAMPS 1.4.2 Change log
+added libs for tmc2130 watterot with conf0 installed 
+add E2
+chanded libs f tmc2130 to not use space of unused headers
+added supression to endstops but removed 2nd endstop for axis (has tmc2130 so only Z and probe may need one.
+re added 2servos
+upgraded to 4thermoistors
 
-* Standard blade fuses instead of thermal fuses increasing the heat resilience.
- 	
-* Current carrying improved by increasing the thickness of the cooper at the PCB from 35 to 70 micro meters.
-
-* Suppression caps added to each end-stop to avoid spurious signals.
-
-* Added an additional connector to XY, E1 and E2 to connect a second stepper motor.
-
-* Connector for external reset added.
-
-* Labeled D8, D9,D10 with Heatbed, Extrude 1, Fan and Extruder 2.
-
-
-Fully assembled available from German RepRap www.germanreprap.com
+integrated my previous fan extendr to 5 external outputs
+removed VIN (toDO! check arduinos power consumption etc)
+changed package or reset + external reset 
 
