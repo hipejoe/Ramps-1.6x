@@ -12,7 +12,10 @@ added supression to endstops but removed 2nd endstop for axis (has tmc2130 so on
 re added 2servos
 upgraded to 4thermoistors
 
+
 integrated my previous fan extendr to 5 external outputs
 removed VIN (toDO! check arduinos power consumption etc)
 changed package or reset + external reset 
 
+changed few Packages to match order
+Orderd First Batch PCBs to test
