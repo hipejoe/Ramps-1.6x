@@ -19,3 +19,9 @@ changed package or reset + external reset
 
 changed few Packages to match order
 Orderd First Batch PCBs to test
+
+RAMPS 1.6.3 
+Got one wirestumb on Zmin fixed
+Changed Pins Back to HWSPI 
+Added I2C pin Header and HW SPI breakout
+added 5vin 
