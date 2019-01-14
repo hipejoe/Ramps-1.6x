@@ -25,3 +25,5 @@ Got one wirestumb on Zmin fixed
 Changed Pins Back to HWSPI 
 Added I2C pin Header and HW SPI breakout
 added 5vin 
+
+Current status: all up and running thermistors are and endstops are "noisefree" printe is running it for 5month now, got some PCBs left.. 
